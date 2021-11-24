@@ -1,0 +1,90 @@
+
+.encabezado__h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: center;
+}
+.encabezado__h1--color{
+  color: red;
+}
+#quitarHiper {
+    text-decoration: none;
+}
+
+header {
+   display: flex ;
+}
+.encabezado__h2 {
+    color: salmon;
+    text-align: center;
+}
+.encabezado__h2--font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.maindex__img {
+    background-image: url("./multimedia/Copia\ de\ blog\ portada\ \(1\).png");
+    height: 320px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.maindex__h3--estilo {
+    font-family: 'Overpass', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, white, red , white );
+}
+.container nav{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    background-color: brown;
+    }
+
+.navbar-nav {
+    font-weight: bold;
+    flex-direction: row;
+    text-align: center;
+ 
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+.navbar-nav li {
+    margin-left: 10%;
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s ease;
+    
+}
+
+.navbar-nav li:hover{
+    transform: translateX(0.5em);
+    cursor: pointer;
+}
+
+ul ul li {
+   
+    font-size: 15px;
+    background-color: dimgray;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.navbar-nav li a {
+
+    text-decoration: none;
+}

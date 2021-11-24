@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cajaIzquierda__h4--font {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: indianred;
+}
+
+.cajaIzquierda {
+  height: 300px;
+  width: 50%;
+  float: left;
+  border: solid black;
+  text-align: center;
+  background-color: burlywood;
+  padding-right: 2%;
+}
+
+.scaleX {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.cajaIzquierda:hover .scaleX {
+  -webkit-transform: scaleX(2);
+          transform: scaleX(2);
+}
+
+h4 {
+  color: lightcoral;
+}
+
+.contenedor {
+  height: 300px;
+  width: 50%;
+  float: right;
+  border: solid black;
+  padding-left: 2%;
+}
+
+table {
+  color: maroon;
+}
+
+.contenedor__Derecho--font {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  margin: 2%;
+}
+
+.logos {
+  color: mediumvioletred;
+}
+
+.footer__h4--font {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer__estilo--color {
+  color: skyblue;
+}
+
+.encabezado__h1 {
+  font-size: 50px;
+  font-weight: lighter;
+  font-style: normal;
+  text-align: center;
+}
+
+.encabezado__h1--color {
+  color: red;
+}
+
+#quitarHiper {
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.encabezado__h2 {
+  color: salmon;
+  text-align: center;
+}
+
+.encabezado__h2--font {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.maindex__img {
+  background-image: url("./multimedia/Copia de blog portada (1).png");
+  height: 320px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.maindex__h3--estilo {
+  font-family: 'Overpass', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(red), to(white));
+  background-image: linear-gradient(to bottom, white, red, white);
+}
+
+.container nav {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: brown;
+}
+
+.navbar-nav {
+  font-weight: bold;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+.navbar-nav li {
+  margin-left: 10%;
+  padding: 9px;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.navbar-nav li:hover {
+  -webkit-transform: translateX(0.5em);
+          transform: translateX(0.5em);
+  cursor: pointer;
+}
+
+ul ul li {
+  font-size: 15px;
+  background-color: dimgray;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+}
+
+.catalogo__pre--color {
+  color: springgreen;
+}
+
+.catalogoPrecios {
+  color: #270bc5;
+}
+
+.ultOferta {
+  color: slateblue;
+}
+
+.micatalogo {
+  width: 100%;
+  background-color: wheat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 25px;
+}
+
+.micatalogo__h4--font {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.productosCatalogo h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+.miCatalogo {
+  width: 90%;
+  height: auto;
+  background-color: tan;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "producto1 producto2 producto3"  "producto4 producto5 producto6 " "producto7 producto8 producto9 ";
+}
+
+.item {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: peru;
+  border: 2px solid #fff;
+}
+
+.producto1 {
+  background-image: url("./multimedia/descarga.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.producto1:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+.producto2 {
+  background-image: url("./multimedia/0779191300074-1.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition: -webkit-transform 0.7s ease;
+  transition: -webkit-transform 0.7s ease;
+  transition: transform 0.7s ease;
+  transition: transform 0.7s ease, -webkit-transform 0.7s ease;
+}
+
+.producto2:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.producto3 {
+  background-image: url("./multimedia/Corona710_grande.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.producto4 {
+  background-image: url("./multimedia/Cerveza-Miller-en-Lata-473-ml-_1.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-transform: skew(0deg);
+          transform: skew(0deg);
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
+.producto4:hover {
+  -webkit-transform: skew(40deg);
+          transform: skew(40deg);
+}
+
+.producto5 {
+  background-image: url("./multimedia/descarga (1).jpeg");
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-animation-name: cambioColor;
+          animation-name: cambioColor;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.producto5:hover {
+  -webkit-animation-name: cambioColor;
+          animation-name: cambioColor;
+}
+
+@-webkit-keyframes cambioColor {
+  0% {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+  50% {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+  }
+  100% {
+    -webkit-filter: grayscale(50%);
+            filter: grayscale(50%);
+  }
+}
+
+@keyframes cambioColor {
+  0% {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+  50% {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+  }
+  100% {
+    -webkit-filter: grayscale(50%);
+            filter: grayscale(50%);
+  }
+}
+
+.producto6 {
+  background-image: url("./multimedia/descarga (2).jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.producto7 {
+  background-image: url("./multimedia/images (1).jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.producto8 {
+  background-image: url("./multimedia/3051800_f.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.producto9 {
+  background-image: url("./multimedia/fernet-branca-750cc.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.prox {
+  color: #0979ad;
+}
+
+p {
+  color: steelblue;
+}
+
+h2 {
+  color: royalblue;
+  text-align: center;
+}
+
+.bloque {
+  background-color: cadetblue;
+}
+
+.bloque__p2--color {
+  color: brown;
+}
+
+.mainsob {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: teal;
+  height: 70%;
+  width: 100%;
+}
+
+.mainsob__box {
+  width: 100%;
+  height: 20%;
+  background-color: tomato;
+}
+
+.mainsob__p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainsob__p--color {
+  color: white;
+}
+
+.maincon__h3--fontsize {
+  font-size: large;
+}
+/*# sourceMappingURL=estilos.css.map */

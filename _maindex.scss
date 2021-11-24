@@ -1,0 +1,46 @@
+
+.cajaIzquierda__h4--font {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+h3 {
+    color: indianred;
+}
+
+.cajaIzquierda {
+    height: 300px;
+    width: 50%;
+    float: left;
+    border: solid black;
+    text-align: center;
+    background-color: burlywood;
+    padding-right: 2%;
+}
+
+.scaleX{
+    transform: scaleX(1);
+    transition: transform 0.5s ease;
+}
+
+.cajaIzquierda:hover .scaleX{
+    transform: scaleX(2);
+}
+
+h4 {
+    color: lightcoral;
+}
+
+.contenedor {
+    height: 300px;
+    width: 50%;
+    float: right;
+    border: solid black;
+    padding-left: 2%;
+}
+table {
+    color: maroon;
+}
+.contenedor__Derecho--font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

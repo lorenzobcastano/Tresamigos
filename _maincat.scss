@@ -1,0 +1,122 @@
+
+.catalogo__pre--color{
+    color: springgreen;
+}
+.catalogoPrecios {
+    color: rgb(39, 11, 197);
+}
+
+.ultOferta {
+    color: slateblue;
+}
+
+.micatalogo{
+    width: 100%;
+    background-color:wheat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+}
+.micatalogo__h4--font{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.productosCatalogo h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.miCatalogo{
+    width: 90%;
+    height: auto;
+    background-color: tan;
+    display: grid;
+    grid-template-areas: "producto1 producto2 producto3" 
+                            "producto4 producto5 producto6 "
+                            "producto7 producto8 producto9 " ;
+}
+.item{
+    min-width: 200px;
+    min-height: 200px;
+    background-color: peru;
+    border: 2px solid #fff;
+}
+.producto1{
+    background-image: url("./multimedia/descarga.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.producto1:hover{
+    transform: scale(1.2,1.2);
+    transition: transform 1s ease;
+}
+.producto2{
+    background-image: url("./multimedia/0779191300074-1.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: rotate(0);
+    transition: transform 0.7s ease;
+}
+.producto2:hover{
+    transform: rotate(360deg);
+}
+.producto3{
+    background-image: url("./multimedia/Corona710_grande.png");
+    background-size: cover;
+    background-position: center;
+}
+.producto4{
+    background-image: url("./multimedia/Cerveza-Miller-en-Lata-473-ml-_1.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: skew(0deg);
+    transition: transform 1s ease;
+}
+.producto4:hover{
+    transform: skew(40deg);
+}
+.producto5{
+    background-image: url("./multimedia/descarga\ \(1\).jpeg");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    animation-name: cambioColor;
+    animation-duration: 10s;
+    animation-delay: 0s;
+}
+.producto5:hover{
+    animation-name: cambioColor;
+}
+@keyframes cambioColor {
+    0%{
+        filter: grayscale(100%);
+    }
+    50%{
+        filter: grayscale(0%);
+    }
+    100%{
+        filter: grayscale(50%);
+    }
+}
+.producto6{
+    background-image: url("./multimedia/descarga\ \(2\).jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.producto7{
+    background-image: url("./multimedia/images\ \(1\).jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.producto8{
+    background-image: url("./multimedia/3051800_f.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.producto9{
+    background-image: url("./multimedia/fernet-branca-750cc.jpg");
+    background-size: cover;
+    background-position: center;
+}
