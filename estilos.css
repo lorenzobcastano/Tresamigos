@@ -18,9 +18,9 @@ h3 {
   height: 300px;
   width: 50%;
   float: left;
-  border: solid black;
+  border: solid red;
   text-align: center;
-  background-color: burlywood;
+  background-color: lightblue;
   padding-right: 2%;
 }
 
@@ -228,7 +228,9 @@ ul li:hover ul {
   background-color: tan;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "producto1 producto2 producto3"  "producto4 producto5 producto6 " "producto7 producto8 producto9 ";
+      grid-template-areas: "producto1 producto2 producto3" 
+ "producto4 producto5 producto6 "
+ "producto7 producto8 producto9 ";
 }
 
 .item {
